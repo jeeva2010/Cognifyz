@@ -1,0 +1,161 @@
+
+---# 📊 Zomato Restaurant Data Analysis – Cognifyz Internship Project
+
+Welcome to my internship project submission for the **Cognifyz Technologies Data Analysis Internship Program**. 
+This repository contains a complete exploratory data analysis (EDA) project on a restaurant dataset inspired by Zomato, fulfilling **all 3 levels and 11 tasks** of the internship.
+
+---
+
+## 🧠 About the Internship
+
+**Cognifyz Technologies** is a leading data-driven technology company offering training and real-world project experience in AI, ML, and Data Analytics.
+This internship program was structured into three levels, allowing interns to explore data from multiple business angles, generate insights, and practice real-world analysis and visualization.
+
+---
+
+## 🛠 Tools & Technologies Used
+
+- **Python**  
+- **Pandas**  
+- **Matplotlib & Seaborn**  
+- **Google Colab / Jupyter Notebook**  
+- **CSV Data Handling**  
+- **Exploratory Data Analysis (EDA)**
+
+---
+
+## 📁 Dataset Summary
+
+The dataset contains various attributes of restaurants such as:
+- Name, Location (City)
+- Cuisine Types
+- Aggregate Rating & Votes
+- Price Range
+- Online Delivery Availability
+- Table Booking and Delivery options
+
+---
+
+## ✅ Completed Tasks
+
+I have successfully completed **all 3 levels comprising 11 tasks**, as specified in the internship program documentation.
+
+---
+
+### 🔹 Level 1 Tasks (Basic Data Insights & Visualizations)
+
+#### 1️⃣ **Top Cuisines**
+- Identified the top 3 most frequently offered cuisines.
+- Calculated the percentage of restaurants serving each.
+- ✅ **Chart:** Bar chart visualizing the top cuisines.
+
+#### 2️⃣ **City Analysis**
+- Found the city with the most restaurants.
+- Calculated average rating per city.
+- Identified the city with the highest average rating.
+- ✅ **Chart:** Bar charts comparing number of restaurants and average ratings by city.
+
+#### 3️⃣ **Price Range Distribution**
+- Analyzed how restaurants are distributed across 4 price ranges.
+- Calculated percentage in each price tier.
+- ✅ **Chart:** Bar chart visualizing price range distribution.
+
+#### 4️⃣ **Online Delivery**
+- Found percentage of restaurants offering online delivery.
+- Compared average ratings between delivery and non-delivery restaurants.
+- ✅ **Chart:** Bar chart comparing ratings with/without delivery.
+
+---
+
+### 🔹 Level 2 Tasks (Deeper Analytical Explorations)
+
+#### 5️⃣ **Restaurant Ratings**
+- Analyzed the distribution of aggregate ratings.
+- Identified the most common rating value.
+- Calculated the average number of votes per restaurant.
+- ✅ **Charts:** Bar chart & histogram of rating distribution.
+
+#### 6️⃣ **Cuisine Combination**
+- Discovered the most common cuisine combinations (multi-cuisine offerings).
+- Compared average ratings among different combinations.
+- ✅ **Charts:** Horizontal bar charts for most common and highest-rated combinations.
+
+#### 7️⃣ **Geographic Analysis**
+- Plotted restaurant locations using latitude and longitude (if available).
+- Identified geographic clusters of restaurant density.
+- ✅ **Note:** This task would use mapping tools like `folium` or `plotly` if coordinates were provided.
+
+#### 8️⃣ **Restaurant Chains**
+- Identified chain restaurants using name frequency.
+- Compared ratings and popularity across chains.
+- ✅ **Chart:** Bar chart of top restaurant chains and their average ratings.
+
+---
+
+### 🔹 Level 3 Tasks (Advanced Relationship Analysis)
+
+#### 9️⃣ **Restaurant Reviews**
+- Analyzed text reviews (if available).
+- Identified common positive/negative keywords.
+- Explored the relationship between review length and rating.
+
+#### 🔟 **Votes Analysis**
+- Found restaurants with the highest and lowest votes.
+- Explored correlation between votes and ratings.
+- ✅ **Chart:** Scatter plot to visualize correlation.
+
+#### 1️⃣1️⃣ **Price Range vs Delivery & Table Booking**
+- Analyzed if higher-priced restaurants are more likely to offer online delivery or table booking.
+- ✅ **Chart:** Grouped bar chart comparing availability across price ranges.
+
+---
+
+## 📌 Key Insights
+
+- **North Indian, Chinese, and Fast Food** are the top 3 most common cuisines.
+- **New Delhi** has the most restaurants, while **Chandigarh** ranks high in average ratings.
+- Most restaurants are in **Price Range 1**, suggesting affordability is key.
+- Restaurants offering **online delivery** slightly outperform others in customer ratings.
+- Multi-cuisine restaurants like **North Indian + Chinese** are both common and well-rated.
+- **Restaurant chains** like Domino’s and McDonald's have consistent presence across cities.
+
+---
+
+## 🧾 Project Structure
+
+A video showcasing the implementation and explanation of tasks has been uploaded on 
+[LinkedIn](#) (https://www.linkedin.com/posts/jeevanneswar-n-958614270_dataanalysis-internship-cognifyztechnologies-activity-7330916244956569601-XSoZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEJMeVQB3AzdBiN-IYg6MOywfu8uMr-T0ys).
+
+
+---
+
+## 🏁 Final Note
+
+This project provided hands-on exposure to:
+- Extracting insights from messy datasets
+- Group-wise aggregation and conditional analysis
+- Communicating results using visuals
+
+It serves as a strong foundation for further work in **data analytics**, **machine learning**, and **business intelligence**.
+
+
+## 🔖 Tags
+
+`#DataAnalysis` `#Python` `#Internship` `#CognifyzTechnologies` `#ZomatoDataAnalysis` `#Pandas` `#Visualization`
+📁 Zomato-Data-Analysis/
+├── 📊 Level 1 Tasks
+│ ├── Top_Cuisines.ipynb
+│ ├── City_Analysis.ipynb
+│ ├── Price_Range_Distribution.ipynb
+│ └── Online_Delivery.ipynb
+│
+├── 📊 Level 2 Tasks
+│ ├── Restaurant_Ratings.ipynb
+│ ├── Cuisine_Combination.ipynb
+│ ├── Geographic_Analysis.ipynb
+│ └── Restaurant_Chains.ipynb
+│
+├── 📊 Level 3 Tasks
+│ ├── Restaurant_Reviews.ipynb
+│ ├── Votes_Analysis.ipynb
+│ └── PriceRange_vs_Delivery_TableBooking.ipynb
